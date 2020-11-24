@@ -1,0 +1,16 @@
+#Name{
+  font-weight: bold;
+  font-size: 15pt;
+  background-color: black;
+  color: white;
+  margin: 2px 35%;
+}
+#Info{
+  font-weight: lighter;
+  font-size: 11pt;
+}
+
+span{
+  font-weight: bold;
+  color:crimson;
+}

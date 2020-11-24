@@ -1,12 +1,9 @@
-// import FormMakanan from './Tugas5/Form/FormMakanan';
-import MenuMakanan from './Tugas5/Page/MenuMakanan';
-import FormMakanan from './Tugas5/Form/FormMakanan';
+import MenuHome from './Tugas6/Page/MenuHome'
 
 function App() {
   return (
-    <div className="App">
-      <MenuMakanan />
-      <FormMakanan />
+    <div>
+      <MenuHome />
     </div>
   );
 }
