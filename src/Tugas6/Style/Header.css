@@ -3,12 +3,19 @@ ul{
   margin: 0;
   padding: 0;
   background-color: #333;
+  overflow: hidden;
 }
 
-
 li{
+  float: left;
+}
+
+li .link{
+  text-align: center;
   display:block;
   color: white;
+  text-decoration: none;
+  padding: 15px 16px;
 }
 
 li:hover{
