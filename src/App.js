@@ -1,11 +1,7 @@
-import MenuHome from './Tugas6/Page/MenuHome'
+import BootstrapLayout from './Tugas7/bootstrap.js'
 
-function App() {
-  return (
-    <div>
-      <MenuHome />
-    </div>
-  );
+export default function App(){
+  return(
+    <BootstrapLayout />
+  )
 }
-
-export default App;
