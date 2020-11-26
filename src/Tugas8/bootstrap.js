@@ -4,7 +4,7 @@ import Slide from './Carousel';
 
 function BootstrapLayout(){
   return(
-    <Container fluid id='Container'>
+    <Container id='Container'>
       <Row className='header'>
         <Col md={4}>
           <DropdownButton id="dropdown-basic-button" title="Choose Language">
