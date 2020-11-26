@@ -1,6 +1,6 @@
-import {Container, Col, Row, Media, Badge, Dropdown ,DropdownButton, Forms, InputGroup, Images, Figure, Jumbotron, ListGroups, Modals} from 'react-bootstrap';
-import Data from './Data'
-import './style.css'
+import {Container, Col, Row, Media, Badge, Dropdown ,DropdownButton, Forms, InputGroup, Images, Figure, Jumbotron, ListGroups, Modals, Breadcrumbs} from 'react-bootstrap';
+import './style.css';
+import Slide from './Carousel';
 
 function BootstrapLayout(){
   return(
@@ -30,6 +30,17 @@ function BootstrapLayout(){
 
         </Col>
       </Row>
+
+      {/*Breadcrumbs*/}
+      <Row>
+
+      </Row>
+
+      {/*Slideshow Row*/}
+      <Row className='Slide'>
+        <Slide />
+      </Row>
+
     </Container>
 
   )
