@@ -1,0 +1,13 @@
+const style1 = {
+    fontSize: '90%',
+    marginLeft: 'auto',
+    textAlign: 'center',
+    marginRight: 'auto',
+    float: 'justify',
+    width: '80%'
+}
+
+const style2 = {
+    textAlign: 'center',
+
+}
