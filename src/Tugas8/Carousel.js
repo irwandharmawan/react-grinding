@@ -1,10 +1,10 @@
-import {Carousel} from 'react-bootstrap';
+import {Carousel,Container} from 'react-bootstrap';
 import Data from './SlideData/Data';
 
 
 export default function Slide(){
   return(
-    <div>
+  <Container>
   <Carousel>
     {Data.map((item,index)=>{
       return(
@@ -12,8 +12,7 @@ export default function Slide(){
           <img
             src={item.Source}
             alt='Slides'
-            width='80%'
-            height='500vh'
+            width='100%'
           />
           <Carousel.Caption>
             <h3>{item.Title}</h3>
@@ -23,6 +22,6 @@ export default function Slide(){
       )
     })}
   </Carousel>
-  </div>
+  </Container>
 )
 }

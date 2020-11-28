@@ -1,7 +1,7 @@
-import BootstrapLayout from './Tugas8/bootstrap.js'
+import Header from './Tugas9/Header.js';
 
 export default function App(){
   return(
-    <BootstrapLayout />
-  )
+    <Header />
+  );
 }
