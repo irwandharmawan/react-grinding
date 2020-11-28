@@ -7,10 +7,6 @@ const style1 = {
     width: '100%'
 }
 
-const style2 = {
-    textAlign: 'center',
-}
-
 function Series(){
   return(
     <Container>

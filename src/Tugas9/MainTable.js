@@ -1,11 +1,11 @@
 import Data from './PlayersData.js';
-import {ProgressBar,Pagination} from 'react-bootstrap';
+import {ProgressBar,Pagination,Table} from 'react-bootstrap';
 import Example from './Popping.js'
 
 function MainTable(){
   return(
     <div>
-    <table style={{marginTop:'20px'}}>
+    <Table style={{marginTop:'20px'}}>
       <thead>
         <tr>
           <th>#</th>
@@ -28,7 +28,7 @@ function MainTable(){
           );
         })}
       </tbody>
-    </table>
+    </Table>
 
     <Pagination style={{marginTop:'20px'}}>
       <Pagination.First />
